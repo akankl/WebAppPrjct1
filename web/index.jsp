@@ -14,7 +14,7 @@
     <div>
       <table>
         <tr>
-          <td>Количество посещений:</td>
+          <td>Количество посещений (v.2):</td>
           <td><%=(request.getAttribute("current_count") == null ? "Error" : request.getAttribute("current_count"))%>
         </tr>
       </table>
